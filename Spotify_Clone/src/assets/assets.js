@@ -38,10 +38,12 @@ import img13 from './img13.jpg'
 import img14 from './img14.jpg'
 import img15 from './img15.jpg'
 import img16 from './img16.jpg'
+import img17 from './img17.jfif'
 import song1 from  './song1.mp3'
 import song2 from  './song2.mp3'
 import song3 from  './song3.mp3'
-
+import song4 from './song4.mp3'
+ 
 export const assets = {
     bell_icon,
     home_icon,
@@ -176,6 +178,14 @@ export const songsData = [
         name: "Song Eight",
         image: img12,
         file:song2,
+        desc:"Put a smile on your face with these happy tunes",
+        duration:"2:35"
+    },
+    {
+        id:8,
+        name: "Aj Ki Rat",
+        image: img17,
+        file:song4,
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:35"
     }
